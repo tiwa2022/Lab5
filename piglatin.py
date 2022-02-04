@@ -1,6 +1,6 @@
 def main():
     list= ['a', 'b', 'c', 'd', 'f', 'g', 'h', 'i', 'k', 'l', 'm', 'n', 'o', 'p','q','r','s','t','u','v','w','x','y','z']
-    sentence = input("Enter a sentence:")
+    sentence = input("Enter a sentence: ")
     sentence= sentence.split()
     for m in range (len(sentence)):
         i = sentence[m]

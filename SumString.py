@@ -7,6 +7,4 @@ def sum_digits_string(str1):
 
     return sum_digit
      
-print(sum_digits_string("123abcd45"))
-print(sum_digits_string("abcdef"))
-print(sum_digits_string("123456789"))
+print(sum_digits_string(input("Enter a string: ")))

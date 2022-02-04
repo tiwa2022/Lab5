@@ -25,7 +25,7 @@ def PhNum(PhoneNumber):
         Number= Number+'-'
     return AreaCode+'-'+Number[:-1]   
 
-PhoneNumber= input("Input Phone Number: ")
+PhoneNumber= input("Enter Phone Number: ")
 NewNumber=PhNum(PhoneNumber)
 print(NewNumber)
             
