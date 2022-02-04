@@ -9,6 +9,6 @@ def printInitials(name):
         print(word[0].upper(),  end = " ")
 
 if __name__ == '__main__':
-    name = "Tiwalade F Olobayo"
+    name = input("Enter your full name: ")
     printInitials(name)
 
